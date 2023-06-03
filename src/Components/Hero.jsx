@@ -5,7 +5,7 @@ const Hero = () => {
   const [modal, setModal] = useState(false);
 
   return (
-    <div className="flex space-y-6 flex-col items-center justify-center w-full h-screen lg:px-0 px-5">
+    <div className="absolute top-0 flex space-y-6 flex-col items-center justify-center w-full h-screen lg:px-0 px-5">
       <div className="css-ixm02w">
         <svg viewBox="0 0 23 24" focusable="false" className="text-white lg:w-20 w-16">
           <g fill="currentColor">

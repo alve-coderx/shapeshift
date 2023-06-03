@@ -4,8 +4,8 @@ import videoAs from "./Assets/Apex_1685768084262.webm";
 const App = () => {
   return (
     <div className="bgvdo">
-      <video autoPlay loop muted controls={false}>
-        <source src={videoAs} type="video/mp4"/>
+      <video autoPlay={true} loop muted controls={false}>
+        <source src={videoAs} type="video/mp4" />
       </video>
       <Hero />
     </div>

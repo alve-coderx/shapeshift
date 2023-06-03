@@ -15,7 +15,6 @@
 .bgvdo video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 .transCLr {
   color: rgba(255, 255, 255, 0.36);

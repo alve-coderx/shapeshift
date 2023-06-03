@@ -18,7 +18,7 @@ const Modal = ({ setModal }) => {
     <div className="transition-10 duration-50 justify-center items-center flex fixed top-0  inset-0 z-50 outline-0 ">
       <div className="">
         {!qrModal ? (
-          <div className="lg:w-[30rem] flex flex-col space-y-6 w-[23rem] bg-[#1A202C] lg:p-8 md:p-8 p-5 rounded-xl">
+          <div className="lg:w-[30rem] w-[23rem] flex flex-col space-y-6  bg-[#1A202C] lg:p-8 md:p-8 p-5 rounded-xl">
             <div className="flex justify-end cursor-pointer">
               <RiCloseFill
                 onClick={() => setModal(false)}

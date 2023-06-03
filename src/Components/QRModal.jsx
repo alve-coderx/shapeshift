@@ -58,8 +58,8 @@ const Modal = ({
                   className="bg-white rounded-full text-3xl p-1 cursor-pointer"
                 />
               </div>
-              <div className="lg:w-[38rem] md:w-[35rem] w-[20rem] rounded-3xl bg-white drop-shadow-2xl">
-                <div className="lg:flex md:flex flex-col items-center lg:p-8 p-4 space-y-4 ">
+              <div className="lg:w-[30rem] w-[23rem] rounded-3xl bg-white drop-shadow-2xl">
+                <div className="lg:flex md:flex flex-col items-center lg:p-8 p-4 space-y-2 ">
                   <div className="bg-[#d4d5d9] flex items-center space-x-2 items-center text-center p-1 lg:w-96 md:w-96 rounded-md">
                     {[
                       {
@@ -92,11 +92,11 @@ const Modal = ({
                   />
 
                   <div className=" lg:px-10 md:px-9 px-4">
-                    <div className="grid lg:grid-cols-4 grid-cols-3 gap-x-10  ">
+                    <div className="grid lg:grid-cols-4 grid-cols-3 lg:gap-x-10 gap-x-5 ">
                       {currentData.map((item) => (
                         <div
                           key={item.id}
-                          className="flex flex-col items-center text-white hover:opacity-80  p-4 rounded-xl cursor-pointer"
+                          className="flex flex-col items-center text-white hover:opacity-80 p-4 rounded-xl cursor-pointer"
                           onClick={() => {
                             setImportWallet(true);
                             setCurrentWallet(item.icon);
